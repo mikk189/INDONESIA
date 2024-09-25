@@ -265,7 +265,7 @@ li {
 .explore {
   background: url(../images/explore-bg-min.jpg) lightgray -585px -328px/416.246% 113.662% no-repeat;
   width: 100%;
-  background-repeat: no-repeat;
+  background-position: center;
 }
 .explore__title {
   color: #010a20;
