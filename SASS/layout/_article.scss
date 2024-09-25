@@ -1,0 +1,95 @@
+.article {
+  padding-top: 40px;
+  background-image: linear-gradient(
+      180deg,
+      #010a20 0%,
+      rgba(0, 8, 29, 0.788) 100%
+    ),
+    url(../images/Rectangle-13.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+  .article__container__photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+  }
+  &__title {
+    display: flex;
+    color: #fff;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 115% */
+    margin-bottom: 30px;
+  }
+  &__text {
+    color: #e0e0e0;
+    height: 115.919px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+  }
+  &__button {
+    margin: 0 auto;
+    display: flex;
+    width: 315px;
+    height: 59px;
+    padding: 10.202px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.101px;
+    border-radius: 107.631px;
+    background: #dd2242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+  }
+}
+.article2    {
+    padding-top: 40px;
+    background-image: linear-gradient(
+        180deg,
+        #010a20 0%,
+        rgba(0, 8, 29, 0.788) 100%
+      ),
+      url(../images/rectangle-11.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+    @media screen and (min-width: 480px) {
+    }
+    @media screen and (min-width: 768px) {
+    }
+  
+    @media screen and (min-width: 1200px) {
+    }
+    .article__photo{
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+    }
+}

@@ -14,92 +14,96 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="CSS/main.css" />
     <title>INDONESIA</title>
   </head>
   <body>
-    <header class="container">
-      <nav class="navigation">
-        <a href="logo">
-          <svg height="24.013" width="24" class="menu__svg">
-            <use href="./images/symbol-defs.svg#icon-flower"></use>
-          </svg>
-          <h3 class="logo__text">Explore Indonesia</h3>
-        </a>
-        <ul class="nav__list">
-          <li class="nav__items">
-            <a href="nav__link">destinations</a>
-          </li>
-          <li class="nav__items">
-            <a href="nav__link">experiences</a>
-          </li>
-          <li class="nav__items">
-            <a href="nav__link">about</a>
-          </li>
-          <li class="nav__items">
-            <a href="nav__link">gallery</a>
-          </li>
-        </ul>
-        <ul class="menu">
-          <button href="" class="menu__button">
-            <svg height="24.013" width="24" class="menu__svg">
-              <use href="./images/symbol-defs.svg#icon-search"></use>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="" class="logo">
+            <svg height="50" width="50" class="logo__svg">
+              <use href="./images/symbol-defs.svg#icon-flower"></use>
             </svg>
-          </button>
-          <button href="" class="menu__button">
-            <svg height="24.013" width="24" class="menu__svg">
-              <use href="./images/symbol-defs.svg#icon-menu"></use>
-            </svg>
-          </button>
-        </ul>
-      </nav>
-      <div class="hero">
-        <h1 class="hero__title">explore indonesia</h1>
-        <button class="hero__button"></button>
-        <ul class="hero__list">
-          <li class="hero__items">
-            <p class="hero__number">01</p>
-            <h3 class="hero__subtitle">Title here</h3>
-            <p class="hero__text">
-              Lorem ipsum dolor sit amet et amet ist ame.
-            </p>
-          </li>
-          <li class="hero__items">
-            <p class="hero__number">01</p>
-            <h3 class="hero__subtitle">Title here</h3>
-            <p class="hero__text">
-              Lorem ipsum dolor sit amet et amet ist ame.
-            </p>
-          </li>
-          <li class="hero__items">
-            <p class="hero__number">01</p>
-            <h3 class="hero__subtitle">Title here</h3>
-            <p class="hero__text">
-              Lorem ipsum dolor sit amet et amet ist ame.
-            </p>
-          </li>
-        </ul>
-        <picture>
-          <source
-            srcset="images/hero-pc-1x-min.jpg 1x, images/hero-pc-2x-min.jpg 2x"
-            media="(min-width:1200px)"
-          />
-          <source
-            srcset="
-              images/hero-phone-x1-min.jpg 1x,
-              images/hero-phone-x2-min.jpg 2x
-            "
-            media="(min-width:480px)"
-          />
-          <img class="team-img" src="images/hero-phone-x1-min.jpg" />
-        </picture>
+            <h3 class="logo__text">Explore Indonesia</h3>
+          </a>
+          <ul class="nav__list">
+            <li class="nav__items">
+              <a href="#" class="nav__link">destinations</a>
+            </li>
+            <li class="nav__items">
+              <a href="#" class="nav__link">experiences</a>
+            </li>
+            <li class="nav__items">
+              <a href="#" class="nav__link">about</a>
+            </li>
+            <li class="nav__items">
+              <a href="#" class="nav__link">gallery</a>
+            </li>
+          </ul>
+          <ul class="menu">
+            <a href="" class="menu__button">
+              <svg height="24.013" width="24" class="menu__svg">
+                <use href="./images/symbol-defs.svg#icon-search"></use>
+              </svg>
+            </a>
+            <a href="" class="menu__button">
+              <svg height="24.013" width="24" class="menu__svg">
+                <use href="./images/symbol-defs.svg#icon-menu"></use>
+              </svg>
+            </a>
+          </ul>
+        </nav>
+        <div class="hero">
+          <h1 class="hero__title">explore indonesia</h1>
+          <button class="hero__button">Start travelling</button>
+          <ul class="hero__list">
+            <li class="hero__items">
+              <p class="hero__number">01</p>
+              <h3 class="hero__subtitle">Title here</h3>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet et amet ist ame.
+              </p>
+            </li>
+            <li class="hero__items">
+              <p class="hero__number">01</p>
+              <h3 class="hero__subtitle">Title here</h3>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet et amet ist ame.
+              </p>
+            </li>
+            <li class="hero__items">
+              <p class="hero__number">01</p>
+              <h3 class="hero__subtitle">Title here</h3>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet et amet ist ame.
+              </p>
+            </li>
+          </ul>
+          <picture class="hero__picture">
+            <source
+              srcset="
+                images/hero-pc-1x-min.jpg 1x,
+                images/hero-pc-2x-min.jpg 2x
+              "
+              media="(min-width:1200px)"
+            />
+            <img class="team-img" src="images/hero-phone-x1-min.jpg" />
+          </picture>
+        </div>
       </div>
     </header>
-    <main class="container">
+    <main class="main">
       <section class="article">
+        <div class="container">
         <div class="article__container">
-          <div class="artile__container__photo">
-            <picture>
+          <div class="article__container__photo">
               <source
                 srcset="
                   images/article1-pc-1x-min.jpg 1x,
@@ -108,26 +112,43 @@
                 media="(min-width:1200px)"
               />
 
-              <source
-                srcset="
-                  images/article1-phone-1x-min.jpg 1x,
-                  images/article1-phone-2x-min.jpg 2x
-                "
-                media="(min-width:480px)"
-              />
               <img class="team-img" src="images/article1-phone-1x-min.jpg" />
             </picture>
           </div>
           <div class="arcticle__container__text">
-            <h3 class="article__title">The walkways of Indonesia spellbind</h3>
+            <h2 class="article__title">The walkways of Indonesia spellbind</h2>
             <p class="article__text">
               Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
               commodo magna et libero mollis rhoncus.
             </p>
             <button class="article__button">Learn More</button>
           </div>
+          </div>
         </div>
-        <div class="article__container">
+      </section>
+        <section class="article2">
+          <div class="container">
+        <div class="article__container2">
+          <div class="artiсle__container__photo">
+            <picture class="article__photo">
+              <source
+                srcset="
+                  images/article2-pc-1x-min.jpg 1x,
+                  images/article2-pc-2x-min.jpg 2x
+                "
+                media="(min-width:1200px)"
+              />
+
+              <source
+                srcset="
+                  images/rectangle-12.jpg 1x,
+                  images/rectangle-13.jpg 2x
+                "
+                media="(min-width:480px)"
+              />
+              <img class="team-img" src="images/rectangle-12.jpg  " />
+            </picture>
+            </div>
           <div class="arcticle__container__text">
             <h3 class="article__title">
               Perfect beaches exude relaxation and fun
@@ -138,58 +159,61 @@
             </p>
             <button class="article__button">Learn More</button>
           </div>
-          <div class="artile__container__photo">
-            <picture>
-              <source
-                srcset="
-                  images/article2-pc-1x-min.jpg 1x,
-                  images/article2-pc-2x-min.jpg 2x
-                "
-                media="(min-width:1200px)"
-              />
-
-              <source
-                srcset="
-                  images/article2-pc-1x-min.jpg 1x,
-                  images/article2-pc-2x-min.jpg 2x
-                "
-                media="(min-width:480px)"
-              />
-              <img class="team-img" src="images/article2-pc-1x-min.jpg" />
-            </picture>
           </div>
-        </div>
       </section>
-      <section class="explore container">
+      <section class="explore">
+        <div class="container">
         <h2 class="explore__title">Explore Our Secrets</h2>
-        <div class="slider">
-          <picture>
-            <source
-              srcset="
-                images/explore1-1x-min.jpg 1x,
-                images/explore1-2x-min.jpg 2x
-              "
-            />
-            <img class="team-img" src="images/explore1-1x-min.jpg" />
-          </picture>
-          <picture>
-            <source
-              srcset="
-                images/explore2-1x-min.jpg 1x,
-                images/explore2-2x-min.jpg 2x
-              "
-            />
-            <img class="team-img" src="images/explore2-1x-min.jpg" />
-          </picture>
-          <picture>
-            <source
-              srcset="
-                images/explore3-1x-min.jpg 1x,
-                images/explore3-2x-min.jpg 2x
-              "
-            />
-            <img class="team-img" src="images/explore3-1x-min.jpg" />
-          </picture>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <picture>
+                <source
+                  srcset="
+                    images/explore1-1x-min.jpg 1x,
+                    images/explore1-2x-min.jpg 2x
+                  "
+                />
+                <img class="d-block w-100" src="images/explore1-1x-min.jpg" />
+              </picture>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <source
+                  srcset="
+                    images/explore2-1x-min.jpg 1x,
+                    images/explore2-2x-min.jpg 2x
+                  "
+                />
+                <img class="d-block w-100" src="images/explore2-1x-min.jpg" />
+              </picture>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <source
+                  srcset="
+                    images/explore3-1x-min.jpg 1x,
+                    images/explore3-2x-min.jpg 2x
+                  "
+                />
+                <img class="d-block w-100" src="images/explore3-1x-min.jpg" />
+              </picture>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         </div>
         <div class="explore__container">
           <h3 class="explore__subtitle">By The Numbers</h3>
@@ -233,6 +257,7 @@
           tortor.
         </p>
         <button class="map__button">Learn More</button>
+        </div>
       </section>
       <section class="video">
         <h2 class="video__title">
@@ -309,6 +334,7 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="gallery">
         <h2 class="gallery__title">Photo Gallery</h2>
@@ -521,6 +547,35 @@
           <a href="" class="footer__link">Blog</a>
         </li>
       </ul>
+      <ul class="socials__list">
+        <li class="soscial__items">
+          <a href="" class="socials__link">
+            <svg height="24.013" width="24" class="menu__svg">
+              <use href="./images/symbol-defs.svg#icon-Facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="soscial__items">
+          <a href="" class="socials__link">
+            <svg height="24.013" width="24" class="menu__svg" fill="black">
+              <use href="./images/symbol-defs.svg#icon-Linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="soscial__items">
+          <a href="" class="socials__link">
+            <svg height="24.013" width="24" class="menu__svg">
+              <use href="./images/symbol-defs.svg#icon-Google"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="Copyright">Copyright © 2019</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
