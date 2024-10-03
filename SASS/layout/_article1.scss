@@ -1,0 +1,18 @@
+.article2 {
+  padding-top: 40px;
+  background-image: linear-gradient(
+      180deg,
+      #010a20 0%,
+      rgba(0, 8, 29, 0.788) 100%
+    ),
+    url(../images/rectangle-11.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 680px;
+  .artiсle__container__photo {
+    display: flex;
+    justify-content: center;
+  }
+}
